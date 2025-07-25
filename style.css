@@ -323,14 +323,14 @@ footer{
     background-color:#0077b6;
     width:80%;
     height:270px;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content:center;
+    align-items:center;
     padding: 40px;
      border-radius: 20px;
 }
 
 .footpara{
-    line-height:30px;
+    line-height:20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     opacity: 0.5;
    
@@ -338,7 +338,7 @@ footer{
 
 .last{
    list-style-type: none;
-   line-height: 50px;
+   line-height: 40px;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    opacity: 0.5;
    
@@ -346,14 +346,21 @@ footer{
 
 .footlist{
     display: flex;
-    gap: 40px;
-
+    flex-direction: row;
+    gap: 80px;
+    margin-top: 2px;
+    
+     height:348px;
+     object-fit: cover;
 }
 
 .footlogo{
   display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
     
     width: 190px;
+    height: 310px;
     gap: 20px;
     padding: 20px;
 }
@@ -361,6 +368,9 @@ footer{
 
 .footimg{
     border-radius: 50%;
+}
+.footext{
+    text-align: left;
 }
 
 .join{
