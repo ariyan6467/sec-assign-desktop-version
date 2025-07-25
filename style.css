@@ -243,3 +243,158 @@ h3{
     opacity: 0.5;
     width: 420px;
 }
+
+
+.challange-2{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    width:80%;
+    padding: 40px;
+}
+
+.parahad{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 0.5;
+}
+
+.div3, .div4, .div5 {
+   
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    color:rgb(255, 255, 255) ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.div3, .div4 {
+    width: 367px;
+    height: 201px;
+    font-size: 15px;
+   
+}
+
+.div5{
+    width: 770px;
+    height:439px;
+      font-size: 25px;
+}
+
+
+.div1{
+    display: flex;
+    gap: 10px;
+}
+
+/* .div2{
+    gap: 60px;
+} */
+
+.div4{
+    position: absolute;
+    bottom: 0 px;
+    background-image: url("https://github.com/ProgrammingHero1/B12A02-Responsive-Flowers/blob/main/assets/deal-ana.png?raw=true");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+}
+
+.div3{
+    background-image: url("https://github.com/ProgrammingHero1/B12A02-Responsive-Flowers/blob/main/assets/deal-bloom.png?raw=true");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value (0.5) for desired darkness */
+    
+}
+
+.div5{
+    background-image: url("https://github.com/ProgrammingHero1/B12A02-Responsive-Flowers/blob/main/assets/deal-zabo.png?raw=true");
+    background-size: cover;
+
+}
+.bloomo , .zaboo{
+    color:rgb(255, 255, 255);
+  
+}
+
+footer{
+    display: flex;
+    background-color:#0077b6;
+    width:80%;
+    height:270px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+     border-radius: 20px;
+}
+
+.footpara{
+    line-height:30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0.5;
+   
+}
+
+.last{
+   list-style-type: none;
+   line-height: 50px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   opacity: 0.5;
+   
+}
+
+.footlist{
+    display: flex;
+    gap: 40px;
+
+}
+
+.footlogo{
+  display: flex;
+    
+    width: 190px;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.footimg{
+    border-radius: 50%;
+}
+
+.join{
+    background-image: url("https://videos.openai.com/vg-assets/assets%2Ftask_01k0x13sjee6xsbwzdb5htqkpz%2F1753321000_img_1.webp?st=2025-07-24T00%3A33%3A42Z&se=2025-07-30T01%3A33%3A42Z&sks=b&skt=2025-07-24T00%3A33%3A42Z&ske=2025-07-30T01%3A33%3A42Z&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skoid=aa5ddad1-c91a-4f0a-9aca-e20682cc8969&skv=2019-02-02&sv=2018-11-09&sr=b&sp=r&spr=https%2Chttp&sig=CsGEzzoVOc0sYjTaPPEWykBJUkhnfhzMZ9r4jimWviI%3D&az=oaivgprodscus");
+    background-size: cover;
+    width: 1440px;
+    height: 533px;
+     display: flex;
+     flex-direction: column;
+    justify-content:center;
+    align-items: center;
+     border-radius: 10px;
+     padding: 10px;
+
+}
+
+.input{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+}
+
+.joinbtn{
+    border-radius: 0px;
+}
+
+input{
+    width: 500px;
+    height: 35px;
+}
+
+.tanu{
+    color:rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+}
